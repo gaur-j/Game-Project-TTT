@@ -53,7 +53,7 @@ const disabledBoxes = () => {
 
 const enableBoxes = () => {
   for (let box of boxes) {
-    box.enabled = true;
+    box.disabled = false;
     box.innerHTML = "";
   }
 };
